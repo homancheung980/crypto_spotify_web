@@ -1,4 +1,4 @@
-![Screenshot 2024-11-05 151300](https://github.com/homancheung980/crypto_spotify_web.git/blob/main/images/img1.png)
+![Screenshot 2024-11-05 151300](C:\Users\Homan\OneDrive - Hogarth Worldwide\Documents\CreativeCoding\crypto_spotify_web\images\img1.png)
 
 <h2 align="center">Crypto Playlist Generator, based on Bitcoin and now with Ethereum.</h2>
 
