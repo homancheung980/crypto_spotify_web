@@ -53,14 +53,15 @@ def get_btcplaylist(crypto):
         return None
 
     # Set keyword for song search
-    keyword = "lost" if crypto_value_change < 0 else "winning"
+    keyword = ["lost", "alone", "sad"] if crypto_value_change < 0 else ["winning", "money", "bread"]
+    keyword_query = " OR ".join(keyword)
 
     # Collect track IDs from Spotify
     track_ids = []
     offsets = [random.randint(0, 1000) for _ in range(4)]  # Generate 4 random offsets
 
     for offset in offsets:
-        track_results = sp.search(q=keyword, type="track", limit=50, offset=offset)
+        track_results = sp.search(q=keyword_query, type="track", limit=50, offset=offset)
         for track in track_results["tracks"]["items"]:
             track_ids.append(track["id"])
 
