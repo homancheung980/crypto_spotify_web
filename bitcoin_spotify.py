@@ -31,7 +31,6 @@ sp = spotipy.Spotify(auth=token)
 # Function to get a crypto playlist
 def get_btcplaylist(crypto):
     # API URL
-    #url = f"{crypto_key}{crypto}"
     url = f"https://api.coinlore.net/api/ticker/?id={crypto}"
 
     # Fetch data from crypto API
