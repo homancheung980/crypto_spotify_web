@@ -17,9 +17,9 @@ h1{
 
 .flexbox {
     display: flex;
-    justify-content: space-between; /* Align content to the right */
+    justify-content: space-between; 
     align-items: flex-start;
-    width: 100%; /* Make sure .content02 fills the width of the screen */
+    width: 100%; 
     gap: 16px;
 }
 
@@ -27,7 +27,7 @@ h1{
     display: flex;
     justify-content: flex-start; 
     align-items: center;
-    width:fit-content; /* Make sure .content02 fills the width of the screen */
+    width:fit-content; 
     gap: 32px;
 }
 
