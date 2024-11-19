@@ -1,0 +1,100 @@
+body{
+	background-color: #F55127;
+	font-family: 'Inter', sans-serif;
+	color; #292929;
+	font-size: 20px;
+	font-weight: medium;
+	justify-content: space-between;
+}
+
+h1{
+	letter-spacing: -0.05em;
+	font-weight: bold; 
+	font-size: 72px;
+	display: inline-block;
+	margin-top: 0;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between; /* Align content to the right */
+    align-items: flex-start;
+    width: 100%; /* Make sure .content02 fills the width of the screen */
+    gap: 16px;
+}
+
+.flexbox02 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width:fit-content; /* Make sure .content02 fills the width of the screen */
+    gap: 32px;
+}
+
+#icon-text-combo{
+    gap:4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display:flex;
+}
+
+.radioform{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+
+.radio_option{
+	letter-spacing: -0.03em;
+	font-weight: bold;
+	font-size: 20px; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+
+.framestyle {
+    position: fixed;
+    bottom: 16px;  
+    right: 16px;        
+    width: 50%;
+    height: 75%;
+    border-radius: 12px;
+    
+}
+
+ 
+ .btn {
+    background-color: #D8401A; 
+    cursor: pointer;
+    color: white; 
+    padding: 8px 16px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.2s ease; 
+}
+
+#btn:hover{
+    border-radius: 20px; 
+    background-color: #B03213; 
+    color: rgb(166, 241, 35); 
+    transition: background-color 0.3s ease, border-radius 0.5s ease;
+}
+
+#btn01{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding: 0;
+}
