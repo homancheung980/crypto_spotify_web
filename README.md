@@ -1,4 +1,4 @@
-DISCLAIMER : I used a lot of CHATGPT to push forward this code even tho it is a simple one, I understand what each line does but having difficulties to start building from zero without any help.
+DISCLAIMER : I used a lot of CHATGPT to push forward this code even tho it is a simple one, I understand what each line does while having difficulties to start building from zero without any help.
 
 WHAT IT DOES--------------------
 A webpage that allows you to generate a playlist based on the crypto of your choice: Bitcoin or Ethereum.
