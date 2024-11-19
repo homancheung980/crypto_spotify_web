@@ -1,4 +1,4 @@
-![Screenshot 2024-11-05 151300](C:\Users\Homan\OneDrive - Hogarth Worldwide\Documents\CreativeCoding\crypto_spotify_web\images\img1.png)
+![Screenshot 2024-11-05 151300](images/img1.png)
 
 <h2 align="center">Crypto Playlist Generator, based on Bitcoin and now with Ethereum.</h2>
 
@@ -21,7 +21,7 @@
 
 This is a python code with FLASK to allow you to generate to generate your own crypto playlist via a webpage!The playlist will be based on the price changes of Bitcoin and Ethereum based on the previous 24 hours.
 
-![Screenshot 2024-11-05 151300](C:\Users\Homan\OneDrive - Hogarth Worldwide\Documents\CreativeCoding\crypto_spotify_web\images\img2.png)
+![Screenshot 2024-11-05 151300](images/img2.png)
 
 ### APIs Used 
 
